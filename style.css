@@ -21,6 +21,8 @@ header{
 
 .display{
     background-color: transparent;
+    color: white;
+    font-size: 36px;
     width: 266px;
     height: 150px;
     
