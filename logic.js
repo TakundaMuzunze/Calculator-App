@@ -31,3 +31,8 @@ function clearDisplay (button) { //Clear display input when clear button is clic
         defaultDisplay.value = '0';
     }
 }
+
+function backspace (button){ //Deletes last entry input after delete button is pressed
+    const currentValue = defaultDisplay.value;
+    defaultDisplay.value = currentValue.slice(0, -1);
+}
