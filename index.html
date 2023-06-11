@@ -12,36 +12,36 @@
     </header>
 
     <div class="calculator">
-        <input class="display" id="screen" type="text" value=" ">
+        <input class="display" id="screen" type="text" value="">
         <div class="keys">
-            <input type="button" class="operator" value="C">
-            <input type="button" class="operator" value="-">
-            <input type="button" class="operator" value="%">
-            <input type="button" class="operator" value="/">
+            <input type="button" class="operator" onclick="clearDisplay()" value="C">
+            <input type="button" class="operator" onclick="buttonClick(this)" value="-">
+            <input type="button" class="operator" onclick="buttonClick(this)" value="%">
+            <input type="button" class="operator" onclick="buttonClick(this)" value="/">
         </div>
         <div class="keys">
-            <input type="button" class="number" value="7">
-            <input type="button" class="number" value="8">
-            <input type="button" class="number" value="9">
-            <input type="button" class="operator" value="*">
+            <input type="button" class="number" onclick="buttonClick(this)" value="7">
+            <input type="button" class="number" onclick="buttonClick(this)" value="8">
+            <input type="button" class="number" onclick="buttonClick(this)" value="9">
+            <input type="button" class="operator" onclick="buttonClick(this)" value="*">
         </div>
         <div class="keys">
-            <input type="button" class="number" value="4">
-            <input type="button" class="number" value="5">
-            <input type="button" class="number" value="6">
-            <input type="button" class="operator" value="-">
+            <input type="button" class="number" onclick="buttonClick(this)" value="4">
+            <input type="button" class="number" onclick="buttonClick(this)" value="5">
+            <input type="button" class="number" onclick="buttonClick(this)" value="6">
+            <input type="button" class="operator" onclick="buttonClick(this)" value="-">
         </div>
         <div class="keys">
-            <input type="button" class="number" value="1">
-            <input type="button" class="number" value="2">
-            <input type="button" class="number" value="3">
-            <input type="button" class="operator" value="+">
+            <input type="button" class="number" onclick="buttonClick(this)" value="1">
+            <input type="button" class="number" onclick="buttonClick(this)" value="2">
+            <input type="button" class="number" onclick="buttonClick(this)" value="3">
+            <input type="button" class="operator" onclick="buttonClick(this)" value="+">
         </div>
         <div class="keys">
-            <!-- <input type="button" class="operator" value="-"> -->
-            <input type="button" class="number zero" value="0">
-            <input type="button" class="number" value=".">
-            <input type="button" class="operator" value="=">
+            <!-- <input type="button" class="operator" onclick="buttonClick(this)" value="-"> -->
+            <input type="button" class="number zero" onclick="buttonClick(this)" value="0">
+            <input type="button" class="number" onclick="buttonClick(this)" value=".">
+            <input type="button" class="operator" onclick="buttonClick(this)" value="=">
         </div>
     </div>
     <script src="logic.js"></script>
