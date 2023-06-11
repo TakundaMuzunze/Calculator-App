@@ -103,13 +103,23 @@ header{
     border: 0;
 }
 
-.number:hover{
+.number.light-mode{
+    background-color: rgb(153, 153, 153);
+}
+
+.number.light-mode:hover{
+    background-color: rgb(194, 194, 194);
+}
+
+.number.dark-mode{
+    background-color: rgb(55, 55, 55);
+}
+
+.number.dark-mode:hover{
     background-color: rgb(83, 83, 83);
 }
 
-.number{
-    background-color: rgb(55, 55, 55);
-}
+
 .zero{
     width: 116px;
 }
