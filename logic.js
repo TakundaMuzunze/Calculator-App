@@ -39,7 +39,9 @@ function backspace (button){ //Deletes last entry input after delete button is p
 
 const switchElement = document.querySelector('.switch');
 const calculatorElement = document.querySelector('.calculator');
+const displayText = document.querySelector('.display');
 
 switchElement.addEventListener('click', () => {
   calculatorElement.classList.toggle('dark-mode');
+  displayText.classList.toggle('dark-mode');
 });
