@@ -46,6 +46,10 @@ header{
     border: 0;
 }
 
+.number:hover{
+    background-color: rgb(83, 83, 83);
+}
+
 .number{
     background-color: rgb(55, 55, 55);
 }
@@ -55,4 +59,7 @@ header{
 
 .operator{
     background-color: rgb(255, 165, 0);
+}
+.operator:hover{
+    background-color: rgb(255, 181, 44);
 }
