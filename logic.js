@@ -36,3 +36,10 @@ function backspace (button){ //Deletes last entry input after delete button is p
     const currentValue = defaultDisplay.value;
     defaultDisplay.value = currentValue.slice(0, -1);
 }
+
+const switchElement = document.querySelector('.switch');
+const calculatorElement = document.querySelector('.calculator');
+
+switchElement.addEventListener('click', () => {
+  calculatorElement.classList.toggle('dark-mode');
+});
