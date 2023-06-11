@@ -1,6 +1,5 @@
 const defaultDisplay = document.getElementById('screen');
 
-
 function defaultScreen () {
     if (defaultDisplay.value === ""){
         defaultDisplay.value = '0';
