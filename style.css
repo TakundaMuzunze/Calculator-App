@@ -3,6 +3,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 header{
@@ -11,18 +12,47 @@ header{
 }
 
 .calculator{
-    background-color: rgb(56, 56, 56);
+    background-color: #121212;
     border-radius: 15px;
     width: 270px;
-    height: 450px;
+    height: 500px;
     margin: 0 auto;
 }
 
 .display{
-    background-color: rgb(0, 0, 0);
+    background-color: transparent;
     width: 266px;
     height: 150px;
     
     border-radius: 15px 15px 0 0;
     border: 0;
+}
+
+.keys{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.number, 
+.operator{
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    border: 0;
+}
+
+.number{
+    background-color: rgb(55, 55, 55);
+}
+.zero{
+    width: 116px;
+}
+
+.operator{
+    background-color: rgb(255, 165, 0);
 }
