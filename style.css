@@ -139,6 +139,14 @@ header{
         margin: 0 auto;
     }
 
+    .display{
+        width: 250px;
+    }
+
+    .number,
+    .operator{
+        font-size: 16px;
+    }
     
 }
 
