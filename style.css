@@ -12,6 +12,7 @@ header{
     text-align: center;
     text-transform: capitalize;
     padding-bottom: 20px;
+    width: 100vw;
 }
 
 .calculator{
@@ -129,4 +130,22 @@ header{
 }
 .operator:hover{
     background-color: rgb(255, 181, 44);
+}
+
+/*Media Queries*/
+@media (min-width: 320px) and (max-width: 479px){
+    header{
+        padding: 10px 30px;
+        width: 70vw;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body h1{
+        font-size:  16px;
+    }
+    body p{
+        font-size: 14px;
+    }
 }
