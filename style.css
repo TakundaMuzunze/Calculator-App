@@ -120,7 +120,6 @@ header{
     background-color: rgb(83, 83, 83);
 }
 
-
 .zero{
     width: 116px;
 }
@@ -135,17 +134,16 @@ header{
 /*Media Queries*/
 @media (min-width: 320px) and (max-width: 479px){
     header{
-        padding: 10px 30px;
+        padding: 20px 30px;
         width: 70vw;
         margin: 0 auto;
     }
+
+    
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
     body h1{
-        font-size:  16px;
-    }
-    body p{
-        font-size: 14px;
+        font-size:  18px;
     }
 }
