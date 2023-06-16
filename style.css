@@ -6,6 +6,8 @@ body{
     font-family: 'Poppins', sans-serif;
     color: black;
     background-color: rgba(255, 181, 44, 0.644);
+    display: grid;
+    place-items: center;
 }
 
 header{
