@@ -120,7 +120,7 @@ header{
     background-color: rgb(83, 83, 83);
 }
 
-.zero{
+.zero, .clear{
     width: 116px;
 }
 
