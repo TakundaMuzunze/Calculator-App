@@ -23,7 +23,7 @@ The calculator app features a modern and intuitive design that starts in light m
 
 ## 🚀 Live Demo
 
-Check out the live demo of the Calculator App [here](https://your-demo-url.com).
+Check out the live demo of the Calculator App [here](https://simplejscalculatorapp.netlify.app/).
 
 ## ⚙️ Installation
 
